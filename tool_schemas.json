@@ -1,0 +1,25 @@
+[
+  {
+    "name": "search_broadening_papers",
+    "description": "搜索能拓宽用户 Deep Hedging（FunNN + empirical Esscher + diffusion model）领域的文献。重点找 adjacent areas、新兴方法、survey、extensions、future directions 等启发性论文。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "focus_area": { "type": "string", "description": "可选：指定拓宽方向，例如 'reinforcement learning hedging'、'multi-asset derivatives'、'survey deep hedging'、'quantum finance' 等（为空则使用内置多方向探索查询）" },
+        "max_results": { "type": "integer", "description": "返回结果数量，默认 6" }
+      },
+      "required": []
+    }
+  },
+  {
+    "name": "download_paper_by_title",
+    "description": "根据论文标题自动下载 PDF 并以标题命名保存到本地文件夹。",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "description": "论文完整标题" }
+      },
+      "required": ["title"]
+    }
+  }
+]
