@@ -23,3 +23,5 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --repo JessicaZhang1999/deep_hedging_broadening_skill \
   --path . \
   --name deep-hedging-broadening
+ ```
+Then restart Codex to pick up the new skill.
