@@ -63,3 +63,12 @@ Use a concise structured format:
 
 After the table, include 2-4 suggested research directions that could follow
 from the papers.
+
+## Optional Scripts
+
+For scripted search or PDF download support, inspect:
+
+- `scripts/tools.py`
+- `scripts/tool_schemas.json`
+
+Only run download-related code when the user explicitly asks to download papers.
