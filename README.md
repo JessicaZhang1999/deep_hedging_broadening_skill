@@ -1,11 +1,25 @@
-# Deep Hedging Broadening Literature Skill
+# Deep Hedging Broadening Codex Skill
 
-专为 Jessica 设计，用于**拓宽**已完成的三篇 Deep Hedging 论文（FunNN + empirical Esscher + diffusion model）的研究领域。
+A Codex skill for broadening Deep Hedging research directions beyond closely overlapping literature.
 
-**使用方法**：
-1. 把整个文件夹放入您的 AI Agent 项目
-2. 把 `research_profile.md` + `system_prompt.md` 喂给大模型
-3. 把 `tool_schemas.json` 注册为 function calling tools
-4. 让 AI 直接调用 `search_broadening_papers`（可指定 focus_area 进一步定向拓宽）
+It is designed for research discovery around financial mathematics, Deep Hedging, reinforcement learning hedging, stochastic control, generative AI, multi-asset derivatives, ESG/climate risk, crypto derivatives, graph neural networks in finance, quantum finance, and physics-inspired finance.
 
-所有下载的文件自动保存在 `my_deep_hedging_broadening_papers/` 文件夹，并以论文标题命名。
+## What This Skill Does
+
+This skill helps Codex:
+
+- find adjacent or emerging literature beyond standard Deep Hedging papers
+- identify survey, review, and future-direction papers
+- suggest new research extensions and paper topics
+- connect existing Deep Hedging work with new methods, datasets, applications, or theoretical frameworks
+- explain why each paper can broaden the current research direction
+
+## Installation
+
+Install the skill into Codex with:
+
+```bash
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --repo JessicaZhang1999/deep_hedging_broadening_skill \
+  --path . \
+  --name deep-hedging-broadening
