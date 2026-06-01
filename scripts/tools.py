@@ -18,7 +18,7 @@ RESEARCH_KEYWORDS_BASE = [
     "portfolio optimization",
 ]
 
-DOWNLOAD_DIR = Path.home() / "Desktop" / "Literatures" / "my_deep_hedging_broadening_papers"
+DOWNLOAD_DIR = Path.home() / "Desktop" / "Literatures" 
 
 
 def sanitize_filename(name: str) -> str:
